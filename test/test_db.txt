@@ -1,0 +1,5 @@
+Insert Into articles(title, body,created_at,updated_at) values ('Test 1', 'body for test 1',CURRENT_TIMESTAMP,CURRENT_TIMESTAMP);
+Insert Into articles(title, body,created_at,updated_at) values ('Test 2', 'body for test 2',CURRENT_TIMESTAMP,CURRENT_TIMESTAMP);
+Insert Into articles(title, body,created_at,updated_at) values ('Test 3', 'body for test 3',CURRENT_TIMESTAMP,CURRENT_TIMESTAMP);
+Insert Into articles(title, body,created_at,updated_at) values ('Test 4', 'body for test 4',CURRENT_TIMESTAMP,CURRENT_TIMESTAMP);
+Insert Into articles(title, body,created_at,updated_at) values ('Test 5', 'body for test 5',CURRENT_TIMESTAMP,CURRENT_TIMESTAMP);
