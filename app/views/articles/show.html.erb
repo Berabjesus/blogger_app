@@ -1,7 +1,8 @@
 <h1><%= @article.title %></h1>
 <p><%= @article.body %></p>
 <h3>Comments</h3>
-<%= render partial: 'articles/comment', collection: @article.comments %>
+<%= render partial: 'articles/comment', collection: @article.comments  %>
 <%= link_to "Home", articles_path%>
 <%= link_to "Delete Post", article_path(@article), method: :delete, data: {confirm: "Really delete the article?"} %>
 <%= link_to "Edit", edit_article_path(@article) %>
+

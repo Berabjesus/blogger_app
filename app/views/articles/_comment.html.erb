@@ -1,4 +1,7 @@
 <div>
   <h4>Comment by <%= comment.author_name %></h4>
   <p class="comment"><%= comment.body %></p>
+  <% @names.each do |i|%>
+    <%= i%>
+  <%end%>
 </div>
