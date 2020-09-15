@@ -1,9 +1,9 @@
-<% if @article.image.exists? %>
-  <figure><%= image_tag @article.image.url(:medium)  %></figure>
-<% end %>
+
 <h1><%= @article.title %></h1>
 <p><%= @article.body %></p>
-
+<% if @article.image.exists? %>
+  <figure><%= image_tag @article.image.url %></figure>
+<% end %>
 <p>
   Tags:
   <% @article.tags.each do |tag| %>
