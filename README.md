@@ -22,6 +22,13 @@
 - Twitter: [@bereket_ababu_b](https://twitter.com/bereket_ababu_b)
 - Linkedin: [linkedin](https://www.linkedin.com/in/bereket-beshane-a1b75a1a9/)
 
+👤 **Miguel Angel Enciso Sanchez**
+
+- Github: [@rootDEV2990](https://github.com/rootDEV2990)
+- Twitter: [@m29902](https://twitter.com/m29902)
+- Linkedin: [linkedin](https://www.linkedin.com/in/miguel-enciso-6474741a1/)
+- Medium: [medium](https://medium.com/@website.dev)
+
 ## 🤝 Contributing
 
 Contributions, issues and feature requests are welcome!
