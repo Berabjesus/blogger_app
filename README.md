@@ -1,24 +1,40 @@
-# README
+# Blog app
+> This is a Microverse, Technical curriculum, Ruby on Rails Blog App.
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+> See the test version Live here - > [Live Link](https://mighty-temple-83033.herokuapp.com/articles)
+## Built With
 
-Things you may want to cover:
+- Ruby on Rails
+- HTML
+- CSS
+- sqlite3 for the local development
+- Postgresql for the deployment
+- ImageMagick
+- PaperClip
+- Heroku
+- VScode
 
-* Ruby version
+## Author
 
-* System dependencies
+👤 **Bereket Beshane**
 
-* Configuration
+- Github: [@berabjesus](https://github.com/Berabjesus)
+- Twitter: [@bereket_ababu_b](https://twitter.com/bereket_ababu_b)
+- Linkedin: [linkedin](https://www.linkedin.com/in/bereket-beshane-a1b75a1a9/)
 
-* Database creation
+## 🤝 Contributing
 
-* Database initialization
+Contributions, issues and feature requests are welcome!
 
-* How to run the test suite
+## Show your support
 
-* Services (job queues, cache servers, search engines, etc.)
+Give a ⭐️ if you like this project!
 
-* Deployment instructions
+## Acknowledgments
 
-* ...
+- Microverse
+- Heroku
+## 📝 License
+
+This project is [MIT](LICENSE) licensed.
+
