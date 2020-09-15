@@ -13,7 +13,9 @@
 
 <h3>Comments (<%= @article.comments.size %>)</h3>
 <%= render partial: 'articles/comment', collection: @article.comments  %>
-<%= link_to "Home", articles_path%>
-<%= link_to "Delete Post", article_path(@article), method: :delete, data: {confirm: "Really delete the article?"} %>
-<%= link_to "Edit", edit_article_path(@article) %>
+<div class="btns-container">
+  <%= link_to "Home", articles_path, class: 'custom-btns'%>
+  <%= link_to "Delete Post", article_path(@article), method: :delete, class: 'custom-btns', data: {confirm: "Really delete the article?"} %>
+  <%= link_to "Edit", edit_article_path(@article), class: 'custom-btns'%>
+</div>
 <%= render partial: 'comments/form' %>
