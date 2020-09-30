@@ -1,0 +1,21 @@
+
+<h1><%= @article.title %></h1>
+<p><%= @article.body %></p>
+<% if @article.image.exists? %>
+  <figure><%= image_tag @article.image.url %></figure>
+<% end %>
+<p>
+  Tags:
+  <% @article.tags.each do |tag| %>
+    <%= link_to tag.name, tag_path(tag) %>
+  <% end %>
+</p>
+
+<h3>Comments (<%= @article.comments.size %>)</h3>
+<%= render partial: 'articles/comment', collection: @article.comments  %>
+<div class="btns-container">
+  <%= link_to "Home", articles_path, class: 'custom-btns'%>
+  <%= link_to "Delete Post", article_path(@article), method: :delete, class: 'custom-btns', data: {confirm: "Really delete the article?"} %>
+  <%= link_to "Edit", edit_article_path(@article), class: 'custom-btns'%>
+</div>
+<%= render partial: 'comments/form' %>
